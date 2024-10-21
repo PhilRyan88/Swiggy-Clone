@@ -32,7 +32,7 @@ svg {
   bottom: 1px;
   gap: 20px;
   height: 230px;
-  background-color: white;
+  /* background-color: white; */
 }
 .images img {
   position: relative;
@@ -47,4 +47,30 @@ nav svg[class="VXJlj"]:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease-in;
   cursor: pointer;
+}
+nav select:hover {
+  color: orange;
+}
+nav ul li:hover .ppAwf path {
+  fill: orange;
+}
+.body .main {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 110px;
+  left: 200px;
+}
+.body .sc-dtInlm {
+  height: 200px;
+  width: 300px;
+
+  position: relative;
+}
+.body .sc-dtInlm img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+
+  object-fit: cover;
 }
