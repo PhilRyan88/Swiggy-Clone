@@ -11,6 +11,7 @@ body {
 }
 nav {
   height: 80px;
+  width: 1800px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -74,4 +75,13 @@ nav ul li:hover .ppAwf path {
   width: 300px;
 
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.body .sc-dtInlm img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.body .sc-dtInlm img:hover b {
+  cursor: pointer;
+  transform: scale(0.9);
 }
